@@ -30,12 +30,6 @@
                     <?php endforeach ?>
                 </tr>
                 <?php endforeach ?>
-    
-                <?php if(empty($penilaian)): ?>
-                <tr>
-                    <td colspan="<?=count($columns)+2?>"><i>Tidak ada data</i></td>
-                </tr>
-                <?php endif ?>
             </tbody>
         </table>
     </div>
@@ -90,12 +84,6 @@
                     <?php endforeach ?>
                 </tr>
                 <?php endforeach ?>
-    
-                <?php if(empty($penilaian)): ?>
-                <tr>
-                    <td colspan="<?=count($columns)+2?>"><i>Tidak ada data</i></td>
-                </tr>
-                <?php endif ?>
             </tbody>
         </table>
     </div>
